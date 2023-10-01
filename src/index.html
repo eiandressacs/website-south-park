@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Roboto:wght@100;300;500;700&family=Rubik&family=Secular+One&display=swap" rel="stylesheet">
+    <!-- Links CSS -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <!-- Titulo -->
+    <title> Projeto Site Web - Semana do Zero ao Programador Contratado </title>
+</head> 
+<body>
+    <main class="personagens">
+        <div class="personagem">
+            <img class="imagem" src="./image/South-Park/Erik-Cartman.jpg" alt="Personagem Erik Cartman">
+            <div class="conteudo">
+                <i class="logo"></i>
+                <h2 class="nome-personagem">Erik Cartman</h2>
+                <p class="descricao">Eric Theodore Cartman, ou apenas Cartman, é um dos personagens principais, Eric é principalmente, egocêntrico, imaturo, mimado, preguiçoso, racista, preconceituoso e antissemita. Ao longo da série, Cartman não evita de estereotipar quase todos que encontra, sendo o principal antagonista da trama.</p>
+            </div>
+        </div>         
+
+        <div class="personagem">
+            <img class="imagem" src="./image/South-Park/Stan.jpg" alt="Personagem Stan Marsh">
+            <div class="conteudo">
+                <i class="logo"></i>
+                <h2 class="nome-personagem">Stan Marsh</h2>
+                <p class="descricao">Pode ser considerado o mais correto e sensato de todos, apesar de muitas vezes ficar indeciso no momento de tomar alguma decisão, e também é caracterizado como sentimental e na maioria das vezes toma desições com o coração.</p>
+            </div>
+        </div>        
+
+        <div class="personagem selecionado">
+            <img class="imagem" src="./image/South-Park/Principal- South-Park.jpg" alt="South Park">
+            <div class="conteudo">
+                <h2 class="nome-personagem">South Park</h2>
+                <p class="descricao">Série humorística de animação norte-americana, estreada a 13 de agosto de 1997 no canal Comedy Central. De humor politicamente incorreto, satiriza muitos aspetos da cultura americana e de acontecimentos atuais, desafiando convicções e tabus e utilizando muito humor negro.</p>
+            </div>
+        </div>        
+
+        <div class="personagem">
+            <img class="imagem" src="./image/South-Park/Face-Kyle.jpg" alt="Personagem Kyle Broflovski">
+            <div class="conteudo">
+                <i class="logo"></i>
+                <h2 class="nome-personagem">Kyle Broflovski</h2>
+                <p class="descricao">Kyle é retratado com sua inconfundível ushanka verde que esconde seus cabelos ruivos que lembram o de sua mãe. Seu melhor e inseparável amigo é Stan Marsh. A família de Kyle é judeu e eles vieram de New Jersey, onde inclusive em um episódio Kyle é obrigado a ouvir desaforos de Cartman quanto a isso.</p>
+            </div>
+        </div>        
+
+        <div class="personagem">
+            <img class="imagem" src="./image/South-Park/Kenny-personagem.jpg" alt="Personagem Kenny">
+            <div class="conteudo">
+                <i class="logo"></i>
+                <h2 class="nome-personagem">Kenny McCormick</h2>
+                <p class="descricao">Kenny é mais famoso por morrer em quase todos os episódios nas primeiras cinco temporadas de South Park. Ele também é facilmente reconhecível por quase sempre vestir um casaco laranja que cobre a maior parte do rosto e abafa suas falas e ser zoado pelo Cartman por ser muito pobre</p>
+            </div>
+        </div>        
+    </main>
+
+    <ul class="botoes">
+        <li>
+            <button class="botao" onclick="selecionarPersonagem(0)">
+                <img src="./image/South-Park/pngwing.com.png" alt="Personagem Erik Cartman">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao" onclick="selecionarPersonagem(1)">
+                <img src="./image/South-Park/pngegg (2).png" alt="Personagem Stan Marsh">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao selecionado" onclick="selecionarPersonagem(2)">
+                <img src="./image/South-Park/sSouth Park.jpg" alt="">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao" onclick="selecionarPersonagem(3)">
+                <img src="./image/South-Park/pngegg.png" alt="Personagem Kyle Broflovski">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao" onclick="selecionarPersonagem(4)">
+                <img src="./image/South-Park/kenny-png.png" alt="Personagem Kenny">
+            </button>
+        </li>
+    </ul>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
